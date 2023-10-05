@@ -8,7 +8,7 @@ body{
 }
 
 .main-dino{
-  background-color: green;
+  background-color: #688E26;
   width: 100vw;
   height:calc(100vh - 170px);
   position: relative;
@@ -27,7 +27,7 @@ body{
   display: flex;
   flex-direction: column;
   width: 100vw;
-  background: steelblue;
+  background: #FAA613;
   position: absolute;
   bottom: 0;
   padding-bottom: 10px;
@@ -36,13 +36,14 @@ body{
   display: flex;
   justify-content: center;
   font-size: 42px;
-  color: wheat;
+  color: #fff;
 }
 .subtitle{
   display: inherit;
-  color: #4171eb;
-  font-size: 30px;
+  color: #1e1e1e;
+  font-size: 40px;
   justify-content: center;
+  margin-bottom: 10px;
 }
 .content-time{
   width: inherit;
@@ -55,9 +56,8 @@ body{
   height: 100px;
   grid-template-rows: 1fr 1fr;
   justify-content: center;
-  background-color: black;
+  background-color: #A10702;
   color: white;
   margin: 10px;
   border-radius: 10px;
-  padding-top: 10px;
 }
