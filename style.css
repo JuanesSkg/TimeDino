@@ -10,16 +10,15 @@ body{
 .main-dino{
   background-color: #688E26;
   width: 100vw;
-  height:calc(100vh - 170px);
+  height:calc(100vh - 290.400px);
   position: relative;
-
 }
 .img{
   width: 100px;
   scale: 2.6;
   position: absolute;
+  bottom: 70px;
   left: 40vw;
-  top: 40vh;
 }
 
 
@@ -40,10 +39,9 @@ body{
 }
 .subtitle{
   display: inherit;
-  color: #1e1e1e;
+  color: white;
   font-size: 40px;
   justify-content: center;
-  margin-bottom: 10px;
 }
 .content-time{
   width: inherit;
@@ -60,4 +58,25 @@ body{
   color: white;
   margin: 10px;
   border-radius: 10px;
+}
+
+
+
+/* responsive movil  */
+
+@media (max-width:800px){
+  .content{
+    height: fit-content;
+  }
+  .content-time{
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr  ;
+    gap: 10px;
+    padding: 20px;
+  }
+  .card{
+    font-size: 14px !important;
+    width: 90%;
+    margin: 0;
+  }
 }
